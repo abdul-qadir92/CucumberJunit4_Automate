@@ -1,0 +1,25 @@
+{
+  "server": "hub-cloud.browserstack.com",
+  "user": "",
+  "key": "",
+
+  "capabilities": {
+    "projectName": "BDD-Junit",
+    "buildName": "CucumberSingle-1",
+    "sessionName": "Offers",
+    "debug": "true",
+    "networkLogs": "true",
+    "seleniumVersion": "4.1.0",
+    "consoleLogs": "errors"
+  },
+
+  "environments": [
+    {
+      "envOptions": {
+        "osVersion": "14",
+        "deviceName": "iPhone 12 Pro",
+        "realMobile": "true"
+      }
+    }
+  ]
+}
