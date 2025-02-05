@@ -1,0 +1,9 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+target/
+build/
+.idea/*.xml
+test-report/pdfReports/*
+test-report/SparkReport/*
+test-report/*.png
