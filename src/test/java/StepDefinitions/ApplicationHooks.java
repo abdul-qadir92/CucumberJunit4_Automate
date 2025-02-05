@@ -51,8 +51,10 @@ public class ApplicationHooks {
         byte[] sourcePath = ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
         sc.attach(sourcePath,"image/png",screenshotName);
         JavascriptExecutor jse = (JavascriptExecutor)driver;
-        jse.executeScript("browserstack_executor: {\"action\": \"setSessionName\", \"arguments\": {\"name\":\" "+       sc.getName().toString()   +" \" }}");
-        jse.executeScript("browserstack_executor: {\"action\": \"setSessionStatus\", \"arguments\": {\"status\": \"" + sc.getStatus().toString() + "\", \"reason\": \"" + "\"}}");
+        if(prop.getProperty("browser").toLowerCase().trim().contains("remote")) {
+            jse.executeScript("browserstack_executor: {\"action\": \"setSessionName\", \"arguments\": {\"name\":\" " + sc.getName().toString() + " \" }}");
+            jse.executeScript("browserstack_executor: {\"action\": \"setSessionStatus\", \"arguments\": {\"status\": \"" + sc.getStatus().toString() + "\", \"reason\": \"" + "\"}}");
+        }
 
 
     }
