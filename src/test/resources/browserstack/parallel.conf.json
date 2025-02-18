@@ -1,7 +1,7 @@
 {
   "server": "hub-cloud.browserstack.com",
-  "user": "abdulqadirkhande_5QjKSy",
-  "key": "vePUAny3y5yaMQ2xNBtf",
+  "user": "",
+  "key": "",
 
   "capabilities": {
     "projectName": "BDD",
@@ -39,8 +39,8 @@
     },
     {
       "envOptions": {
-              "osVersion": "9.0",
-              "deviceName": "Samsung Galaxy S9 Plus",
+              "osVersion": "14.0",
+              "deviceName": "Samsung Galaxy S24",
               "realMobile": "true"
             }
     }
