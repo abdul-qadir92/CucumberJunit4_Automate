@@ -82,7 +82,7 @@
 
             <artifactId>selenium-java</artifactId>
 
-            <version>4.1.1</version>
+            <version>4.25.0</version>
 
         </dependency>
 

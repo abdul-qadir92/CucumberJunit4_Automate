@@ -10,7 +10,7 @@ platforms:
     osVersion: 15
     browserName: Chromium
     deviceOrientation: portrait
-parallelsPerPlatform: 1
+parallelsPerPlatform: 2
 browserstackLocal: false
 buildName: bstack-demo
 buildIdentifier: ${BUILD_NUMBER}
@@ -21,3 +21,4 @@ consoleLogs: info
 testObservability: true
 accessibility: true
 logLevel: debug
+browserstackAutomation: false
