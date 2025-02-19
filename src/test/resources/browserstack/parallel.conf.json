@@ -15,16 +15,16 @@
 
   "environments": [
     {
-      "browser": "Chrome",
-      "browser_version": "latest",
+      "browserName": "Chrome",
+      "browserVersion": "latest",
       "envOptions": {
         "os": "Windows",
         "osVersion": "11"
       }
     },
     {
-      "browser": "Safari",
-      "browser_version": "15.0",
+      "browserName": "Safari",
+      "browserVersion": "15.0",
       "envOptions": {
           "os": "OS X",
           "osVersion": "Monterey"

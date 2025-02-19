@@ -15,10 +15,11 @@
 
   "environments": [
     {
+      "browserName": "Chrome",
+      "browserVersion": "latest",
       "envOptions": {
-        "osVersion": "14",
-        "deviceName": "iPhone 12 Pro",
-        "realMobile": "true"
+        "os": "Windows",
+        "osVersion": "11"
       }
     }
   ]

@@ -10,15 +10,16 @@ platforms:
     osVersion: 15
     browserName: Chromium
     deviceOrientation: portrait
-parallelsPerPlatform: 2
+parallelsPerPlatform: 5
 browserstackLocal: false
 buildName: bstack-demo
 buildIdentifier: ${BUILD_NUMBER}
 projectName: BDD Junit4
 debug: true
-networkLogs: true
+networkLogs: false
 consoleLogs: info
 testObservability: true
 accessibility: true
+percy: true
 logLevel: debug
-browserstackAutomation: false
+browserstackAutomation: true
